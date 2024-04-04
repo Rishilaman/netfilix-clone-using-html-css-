@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: #000;
+    color: #fff;
+}
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background-color: firebrick;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding:5px;
+    height: 35px;
+    width:95px;
+    cursor: pointer;
+}
+
+.language{
+    display: inline-flex;
+    background-color: transparent;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+
+}
+button img{
+    width: 10px;
+    margin-left: 5px;
+}
+.header-contanint{
+    
+    text-align: center;
+    margin-top: 221px;
+   
+
+}
+.header-contanint h1{
+    font-size:60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 10px;
+
+    
+   
+
+}
+.header-contanint h3{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.email-singnin{
+    /* background:#fff; */
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    /* padding: 1.5rem 1rem 0.5rem; */
+    overflow: hidden;
+
+
+
+}
+
+.email-singnin input{
+    line-height: 1.5;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    font-weight:500;
+    height: 65px;
+    color: #fff;
+    width: 35%;
+    padding: 15px 15px;
+    border: 0.5px solid rgba(256, 256, 256,0.3);
+    
+}
+.coloring{
+    border: 3px solid rgba(219, 16, 39, 255);
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    /* background-color: #0e1533; */
+    height: 21vh;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* border-radius: 44% 38% 10% 10% / 29% 29% 10% 10%; */
+    width: 100%;
+}
+.email-singnin button{
+    background-color:crimson ;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 16px 12px 22px 12px;
+}
+
+.all_containts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plans{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    justify-items: left;
+    /* align-items: center; */
+    background: linear-gradient(rgba(66,22,43,255),rgba(37,11,37,255));
+    height: 139px;
+    text-align: center;
+
+    width:78%;
+    border: none;
+    border-radius: 14px;
+   margin-bottom: 55px;
+   transition-duration: 1s;
+   
+   
+
+
+}
+.plans:hover{
+    background: linear-gradient(rgba(60,22,43,205),rgba(30,11,37,205));
+    height:145PX ;
+    width: 85%;
+
+}
+.plans h3{
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    /* justify-items:left; */
+    padding:5px 25px;
+}
+.plans h4{
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    /* justify-items:left; */
+    padding:5px 25px;
+}
+.more{
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    flex-direction: column;
+
+}
+.more h3{
+    /* text-align: center; */
+    margin:25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+  
+    
+}
+#padding{
+    padding: 0 148px;
+}
+#heighting{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+   flex-wrap: wrap;
+}
+
+.containers_contant{
+    display: flex;
+    flex-direction: column;
+    height: 335px;
+    justify-content: space-around;
+    width: 215px;
+    /* flex-wrap: wrap; */
+    background: linear-gradient(rgba(27, 29, 59, 255), rgba(31, 19, 34, 255));
+    margin: 0px 14px;
+    margin-bottom: 55px;
+    /* border: 2px solid #4bc1e1; */
+    border-radius: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+
+
+}
+.containers_contant:hover{
+    height: 400px;
+    width:335PX ;
+}
+
+
+.containers_contant h2{
+    
+     padding-left: 5px;
+}
+#watch{
+    
+    text-align: start;
+    padding-left: 5px;
+}
+.containers_contant img{
+    height: 83px;
+    width: 78px;
+
+    border: none;
+    /* border-radius: 55%; */
+    text-align: end;
+    
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>  FAQs <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.faq{
+    padding: 10px ;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+.faq h2{
+    font-weight: 500;
+    font-size:48px;
+
+}
+.orderlist{
+    margin: 60px auto;
+    width: 100%;
+    max-width:750px ;
+}
+.orderlist li{
+    list-style:none;
+    width:100%;
+    padding: 5px;
+
+}
+.orderlist li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #303030;
+    margin-bottom:3px;
+    cursor: pointer;
+    position: relative;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition:transform 0.3s;
+    
+}
+input[type="radio"]{
+    display: none;
+}
+.orderlist .content{
+    background-color: #303030;
+    max-height: 0;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 20px;
+    transition:  max-height 0.5s, padding 0.5s;
+    transition-timing-function: ease-in-out;
+    
+
+
+}
+.orderlist li label:hover{
+    height: 75px;
+    width:765px;
+}
+.orderlist input[type="radio"]:checked + label+ .content{
+    max-height: 600px;
+    padding: 30px 30px;
+
+}
+.orderlist input[type="radio"]:label+.content{
+    max-height: 0px;
+    padding: 30px 30px;
+
+}
+
+.orderlist input[type="radio"]:checked + label::after{
+    transform:rotate(135deg);
+}
+.orderlist .email-singnin{
+    width: 75%;
+    border: 1px solid rgba(256, 256, 256, 0.3);
+
+}
+.orderlist input[type="radio"]:label+.content:active{
+    max-height: 0px;
+}
+#footeremail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    width: 100%;
+    
+}
+#footeremail .email-singnin{
+   display: flex;
+   flex-direction: row;
+
+
+
+}
+#footeremail .little1{
+    font-size:23px ;
+
+}
+#footeremail .email-singnin input{
+    width: 77%;
+    margin-right:9px;
+    font-weight: 800;
+    text-transform:lowercase;
+    color:#fff; 
+    border: 2px solid #fff;
+}
+#footeremail .email-singnin button{
+    padding:19px 13px;
+    font-weight: 700;
+}
+
+.footertext{
+    display:flex;
+    flex-direction: column;
+   
+    
+}
+.footertext h2{
+   text-align: left;
+   padding: 20px 17px 18px 0px;
+}
+#investernreatio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.poperties{
+    margin: 15px;
+    padding: 5px 25px 25px 35px;
+    line-height: 45px;
+    text-decoration:underline;
+    font-size: 25px;
+    cursor: pointer;
+}
+#last{
+    margin-bottom: 55px;
+    height: 55px;
+    width: 155px;
+}
+#last .language{
+   width: 115px;
+   padding-left: 22px;
+    color:#fff;
+    background-color: transparent;
+
+}
+#last p{
+    margin: 15px;
+}
